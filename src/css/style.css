@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lilita+One&family=Pixelify+Sans:wght@400..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    flex-flow: column;
+   
+}
+
+.hora{
+    margin-top: 80px ;
+    position: fixed;
+    top:0;
+    font-family: "Pixelify Sans", sans-serif;
+    font-weight:lighter;
+    font-optical-sizing: auto;
+}
+
+img:hover{
+    width: 20%;
+    
+}
+
+img{
+    cursor: pointer;
+    padding-left: 40px;
+    margin-bottom: 130px;
+}
+
+p{
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 30px;
+    color: rgb(63, 60, 60);
+}
+
+.white{
+    color: white;
+}
+
+.noite{
+    background-color: #24638b;
+    background-image: linear-gradient(160deg, #24638b 0%, #201d8b 50%);
+
+}
+
+.tarde{
+    background-color: #f2b36c;
+    background-image: linear-gradient(0deg, #f2b36c 0%, #201bb9 100%);
+
+}
+
+.dia{
+    background-color: #FBAB7E;
+    background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+
+}
+
+
+.frases-pato{
+    display: flex;
+    width: 30%;
+    height: 100px;
+    text-align: center;
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 100px;
+
+    
+}
+
+@media only screen and (max-width: 600px) {
+    
+    .frases-pato{
+        width: 360px;
+    }
+    img{
+        width: 100;
+    }
+
+    img:hover{
+        width: auto;
+    }
+
+
+
+  }
