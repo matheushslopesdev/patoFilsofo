@@ -15,6 +15,8 @@ O **Pato Filósofo** é um blog digital onde um pato fictício oferece reflexõe
 
 - **Design Simples e Relaxante**: O layout remete a um lago tranquilo, onde você pode navegar enquanto reflete sobre a vida como um pato pensativo.
 
+- **BackGround Interativo, conforme se e dia ou noite.**
+
 ## Como Funciona?
 
 1. **Explore as Frases**: O site oferece uma coleção de frases filosóficas do Pato Filósofo, que são exibidas aleatoriamente toda vez que você visita a página.
